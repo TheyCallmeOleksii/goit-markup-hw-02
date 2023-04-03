@@ -107,6 +107,9 @@ body {
   font-style: normal;
 }
 .contacts-list {
+}
+
+.contacts-link {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -115,9 +118,6 @@ body {
   color: #434455;
   text-decoration: none;
   font-style: normal;
-}
-
-.contacts-link {
   text-decoration: none;
 }
 .hero-section {
@@ -230,9 +230,9 @@ body {
   background-color: var(--color-cloud);
 }
 .team-list {
-  background-color: var(--color-white);
 }
 .team-item {
+  background-color: var(--color-white);
 }
 .team-employee {
   font-style: normal;
@@ -242,7 +242,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
-  background-color: #ffffff;
+  background-color: var(--color-white);
 }
 .team-job {
   font-style: normal;
