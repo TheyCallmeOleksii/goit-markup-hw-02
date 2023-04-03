@@ -121,10 +121,10 @@ body {
   text-decoration: none;
 }
 .contacts-link:hover {
-  background-color: var(--color-ocean);
+  color: var(--color-ocean);
 }
 .contacts-link:focus {
-  background-color: var(--color-ocean);
+  color: var(--color-ocean);
 }
 .hero-section {
   background-color: var(--color-navy-blue);
@@ -149,10 +149,10 @@ body {
   cursor: pointer;
 }
 .hero-btn:hover {
-  color: var(--color-ocean);
+  background-color: var(--color-ocean);
 }
 .hero-btn:focus {
-  color: var(--color-ocean);
+  background-color: var(--color-ocean);
 }
 .portfolio-btn {
   font-family: 'Roboto', sans-serif;
