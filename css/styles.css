@@ -40,6 +40,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  color: var(--color-slate)
   background-color: var(--color-white);
 }
 
@@ -70,6 +71,11 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-iris);
   text-decoration: none;
+  text-transform: uppercase;
+}
+.logo-link:hover
+.logo-link:focus{
+  color: var(--color-ocean);
 }
 .header-logo {
   font-family: var(--secondary-font), sans-serif;
@@ -80,6 +86,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-navy-blue);
   text-decoration: none;
+  text-transform: uppercase;
 }
 .nav-list {
   font-style: normal;
@@ -246,6 +253,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-iris);
   text-decoration: none;
+  text-transform: uppercase;
 }
 .footer-logo {
   font-family: var(--secondary-font), sans-serif;
@@ -256,6 +264,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--color-cloud);
   text-decoration: none;
+  text-transform: uppercase;
 }
 .footer-txt {
   ont-style: normal;
