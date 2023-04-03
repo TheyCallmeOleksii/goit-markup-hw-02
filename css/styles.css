@@ -215,6 +215,7 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--color-navy-blue);
+  background-color: var(--color-cloud);
 }
 .team-list {
   background-color: var(--color-white);
