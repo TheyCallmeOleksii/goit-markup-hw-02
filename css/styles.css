@@ -93,13 +93,18 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-navy-blue);
+  color: #2e2f42;
 }
 .nav-list-item {
 }
-.nav-link {
+.nav-link:hover {
+  color: var(--color-ocean);
+}
+.nav-link:focus {
+  color: var(--color-ocean);
 }
 .header-contacts {
+  font-style: normal;
 }
 .contacts-list {
   font-style: normal;
