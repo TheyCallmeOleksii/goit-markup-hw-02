@@ -40,7 +40,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: var(--color-slate)
+  color: var(--color-slate);
   background-color: var(--color-white);
 }
 
@@ -73,8 +73,7 @@ body {
   text-decoration: none;
   text-transform: uppercase;
 }
-.logo-link:hover
-.logo-link:focus{
+.logo-link:hover .logo-link:focus {
   color: var(--color-ocean);
 }
 .header-logo {
