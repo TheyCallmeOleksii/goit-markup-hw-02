@@ -109,6 +109,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+  font-style: normal;
 }
 
 .contacts-link {
@@ -127,21 +128,15 @@ body {
   letter-spacing: 0.02em;
 }
 .hero-btn {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-  color: var(--color-white);
-  background-color: var(--color-iris);
-  text-align: center;
   letter-spacing: 0.02em;
+  color: var(--color-navy-blue);
 }
-
-.hero-btn:hover .hero-btn:focus {
-  background: var(--color-ocean);
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--color-ocean);
 }
 .portfolio-btn {
   font-style: normal;
