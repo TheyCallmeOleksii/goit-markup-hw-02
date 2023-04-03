@@ -166,6 +166,7 @@ body {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: var(--color-navy-blue);
 }
 .portfolio-photo-title {
@@ -192,6 +193,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-slate);
 }
+.hid-section {
+}
 .action-section {
 }
 .action-title {
@@ -199,6 +202,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -218,6 +222,7 @@ body {
   color: var(--color-navy-blue);
 }
 .team-list {
+  background-color: var(--color-white);
 }
 .team-item {
 }
@@ -229,6 +234,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
+  background-color: #ffffff;
 }
 .team-job {
   font-style: normal;
