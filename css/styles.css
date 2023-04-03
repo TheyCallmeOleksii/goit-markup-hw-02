@@ -168,7 +168,15 @@ body {
   background-color: var(--color-cloud);
   cursor: pointer;
 }
-.portfolio-btn:hover .portfolio-btn:focus .superior-section {
+.portfolio-btn:hover {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+}
+.portfolio-btn:focus {
+  color: var(--color-white);
+  background-color: var(--color-ocean);
+}
+.superior-section {
 }
 .superior-list {
 }
