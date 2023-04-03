@@ -1,12 +1,49 @@
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVtapbCFPrEVIT9d0c-dYA.woff2)
+    format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+
 :root {
-  --primary-text-color:
-  --title-text-color:
-  --accent-color:
-  --background-color:
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --color-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+  /* Fonts */
+  --primary-font: Roboto;
+  --secondary-font: Raleway;
 }
 
 /**
   |============================
-  | 
+  | Base styles
+  |============================
+*/
+
+body {
+  font-family: Roboto, Raleway;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/**
+  |============================
+  | Header styles
   |============================
 */
