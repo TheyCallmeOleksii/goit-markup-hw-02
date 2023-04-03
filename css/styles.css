@@ -107,14 +107,6 @@ body {
   font-style: normal;
 }
 .contacts-list {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-  text-decoration: none;
-  font-style: normal;
 }
 
 .contacts-link {
@@ -128,7 +120,10 @@ body {
   font-style: normal;
   text-decoration: none;
 }
-.contacts-link:hover .contacts-link:focus {
+.contacts-link:hover {
+  color: var(--color-ocean);
+}
+.contacts-link:focus {
   color: var(--color-ocean);
 }
 .hero-section {
