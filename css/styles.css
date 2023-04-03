@@ -123,10 +123,13 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--color-slate);
   text-decoration: none;
   font-style: normal;
   text-decoration: none;
+}
+.contacts-link:hover .contacts-link:focus {
+  color: var(--color-ocean);
 }
 .hero-section {
   background-color: var(--color-navy-blue);
